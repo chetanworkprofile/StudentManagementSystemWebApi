@@ -1,1 +1,53 @@
-{"Student":[],"Teacher":[{"Id":"161d608c-fc7a-47ca-8d33-87db07cc75b2","Name":"Jatinder Singh","Age":42,"Email":"jatinder@sms.com","Gender":"Male","Phone":986545412,"Students_Allocated":[]},{"Id":"e75d96d3-fae1-41f5-9df2-ab7f621fb2c5","Name":"Satinderpal Singh","Age":40,"Email":"satinderpal@sms.com","Gender":"Male","Phone":56897845,"Students_Allocated":[]},{"Id":"84c11a7b-dff2-4cb4-aed3-a123b2b9d597","Name":"Mandeep mand","Age":34,"Email":"mandeepmand@sms.com","Gender":"Female","Phone":578476844,"Students_Allocated":[]},{"Id":"8c55b4a2-d33c-42a2-a7e7-2b5afc059b81","Name":"Tilak Pathak","Age":38,"Email":"tilak@sms.com","Gender":"Male","Phone":768445454,"Students_Allocated":[]}]}
+{
+  "Student": [
+    {
+      "Id": "535b75fa-5c1f-4290-ba75-ef5efad6371b",
+      "Name": "ajay joshi",
+      "Age": 21,
+      "Email": "ajay@sms.com",
+      "Gender": "male",
+      "Phone": 0,
+      "PathToProfilePic": "string",
+      "CreatedAt": "2023-02-22T14:24:29.0389519+05:30",
+      "UpdatedAt": "2023-02-22T14:24:29.0390067+05:30",
+      "TeacherId": "9758da82-3369-4255-8f62-1d4379e67ead",
+      "IsDeleted": false
+    }
+  ],
+  "Teacher": [
+    {
+      "Id": "9758da82-3369-4255-8f62-1d4379e67ead",
+      "Name": "jatinder singh",
+      "Age": 42,
+      "Email": "jatinder@sms.com",
+      "Gender": "male",
+      "Phone": 0,
+      "PathToProfilePic": "C:\\Users\\ChicMic\\source\\repos\\StudentManagementSystemAPI\\StudentManagementSystemAPI\\Assets\\9758da82-3369-4255-8f62-1d4379e67ead",
+      "Students_Allocated": [
+        "535b75fa-5c1f-4290-ba75-ef5efad6371b"
+      ]
+    },
+    {
+      "Id": "426ce9fe-16f6-4e0c-9d7d-b5bd7d0ab9e1",
+      "Name": "satinderpal singh",
+      "Age": 40,
+      "Email": "satinderpal@sms.com",
+      "Gender": "male",
+      "Phone": 0,
+      "PathToProfilePic": "string",
+      "Students_Allocated": [
+      ]
+    },
+    {
+      "Id": "39134a49-ea43-4b04-bb52-fc571938193a",
+      "Name": "mandeep mand",
+      "Age": 34,
+      "Email": "mandeepmand@sms.com",
+      "Gender": "female",
+      "Phone": 0,
+      "PathToProfilePic": "string",
+      "Students_Allocated": [
+      ]
+    }
+  ]
+}
